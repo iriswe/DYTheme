@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C399DB0F1E081B89009CB438 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C399DB0E1E081B89009CB438 /* main.m */; };
+		C399DB121E081B89009CB438 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C399DB111E081B89009CB438 /* AppDelegate.m */; };
+		C399DB151E081B89009CB438 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C399DB141E081B89009CB438 /* ViewController.m */; };
+		C399DB181E081B89009CB438 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C399DB161E081B89009CB438 /* Main.storyboard */; };
+		C399DB1A1E081B89009CB438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C399DB191E081B89009CB438 /* Assets.xcassets */; };
+		C399DB1D1E081B89009CB438 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C399DB1B1E081B89009CB438 /* LaunchScreen.storyboard */; };
+		C399DB281E081B89009CB438 /* DYThemeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C399DB271E081B89009CB438 /* DYThemeTests.m */; };
+		C399DB331E081B89009CB438 /* DYThemeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C399DB321E081B89009CB438 /* DYThemeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C399DB241E081B89009CB438 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C399DB021E081B88009CB438 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C399DB091E081B88009CB438;
+			remoteInfo = DYTheme;
+		};
+		C399DB2F1E081B89009CB438 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C399DB021E081B88009CB438 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C399DB091E081B88009CB438;
+			remoteInfo = DYTheme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C399DB0A1E081B88009CB438 /* DYTheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYTheme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C399DB0E1E081B89009CB438 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C399DB101E081B89009CB438 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C399DB111E081B89009CB438 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C399DB131E081B89009CB438 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C399DB141E081B89009CB438 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C399DB171E081B89009CB438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C399DB191E081B89009CB438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C399DB1C1E081B89009CB438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C399DB1E1E081B89009CB438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C399DB231E081B89009CB438 /* DYThemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYThemeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C399DB271E081B89009CB438 /* DYThemeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYThemeTests.m; sourceTree = "<group>"; };
+		C399DB291E081B89009CB438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C399DB2E1E081B89009CB438 /* DYThemeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYThemeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C399DB321E081B89009CB438 /* DYThemeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYThemeUITests.m; sourceTree = "<group>"; };
+		C399DB341E081B89009CB438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C399DB071E081B88009CB438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C399DB201E081B89009CB438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C399DB2B1E081B89009CB438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C399DB011E081B88009CB438 = {
+			isa = PBXGroup;
+			children = (
+				C399DB0C1E081B88009CB438 /* DYTheme */,
+				C399DB261E081B89009CB438 /* DYThemeTests */,
+				C399DB311E081B89009CB438 /* DYThemeUITests */,
+				C399DB0B1E081B88009CB438 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C399DB0B1E081B88009CB438 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C399DB0A1E081B88009CB438 /* DYTheme.app */,
+				C399DB231E081B89009CB438 /* DYThemeTests.xctest */,
+				C399DB2E1E081B89009CB438 /* DYThemeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C399DB0C1E081B88009CB438 /* DYTheme */ = {
+			isa = PBXGroup;
+			children = (
+				C399DB101E081B89009CB438 /* AppDelegate.h */,
+				C399DB111E081B89009CB438 /* AppDelegate.m */,
+				C399DB131E081B89009CB438 /* ViewController.h */,
+				C399DB141E081B89009CB438 /* ViewController.m */,
+				C399DB161E081B89009CB438 /* Main.storyboard */,
+				C399DB191E081B89009CB438 /* Assets.xcassets */,
+				C399DB1B1E081B89009CB438 /* LaunchScreen.storyboard */,
+				C399DB1E1E081B89009CB438 /* Info.plist */,
+				C399DB0D1E081B89009CB438 /* Supporting Files */,
+			);
+			path = DYTheme;
+			sourceTree = "<group>";
+		};
+		C399DB0D1E081B89009CB438 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C399DB0E1E081B89009CB438 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C399DB261E081B89009CB438 /* DYThemeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C399DB271E081B89009CB438 /* DYThemeTests.m */,
+				C399DB291E081B89009CB438 /* Info.plist */,
+			);
+			path = DYThemeTests;
+			sourceTree = "<group>";
+		};
+		C399DB311E081B89009CB438 /* DYThemeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C399DB321E081B89009CB438 /* DYThemeUITests.m */,
+				C399DB341E081B89009CB438 /* Info.plist */,
+			);
+			path = DYThemeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C399DB091E081B88009CB438 /* DYTheme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C399DB371E081B89009CB438 /* Build configuration list for PBXNativeTarget "DYTheme" */;
+			buildPhases = (
+				C399DB061E081B88009CB438 /* Sources */,
+				C399DB071E081B88009CB438 /* Frameworks */,
+				C399DB081E081B88009CB438 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DYTheme;
+			productName = DYTheme;
+			productReference = C399DB0A1E081B88009CB438 /* DYTheme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C399DB221E081B89009CB438 /* DYThemeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C399DB3A1E081B89009CB438 /* Build configuration list for PBXNativeTarget "DYThemeTests" */;
+			buildPhases = (
+				C399DB1F1E081B89009CB438 /* Sources */,
+				C399DB201E081B89009CB438 /* Frameworks */,
+				C399DB211E081B89009CB438 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C399DB251E081B89009CB438 /* PBXTargetDependency */,
+			);
+			name = DYThemeTests;
+			productName = DYThemeTests;
+			productReference = C399DB231E081B89009CB438 /* DYThemeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C399DB2D1E081B89009CB438 /* DYThemeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C399DB3D1E081B89009CB438 /* Build configuration list for PBXNativeTarget "DYThemeUITests" */;
+			buildPhases = (
+				C399DB2A1E081B89009CB438 /* Sources */,
+				C399DB2B1E081B89009CB438 /* Frameworks */,
+				C399DB2C1E081B89009CB438 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C399DB301E081B89009CB438 /* PBXTargetDependency */,
+			);
+			name = DYThemeUITests;
+			productName = DYThemeUITests;
+			productReference = C399DB2E1E081B89009CB438 /* DYThemeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C399DB021E081B88009CB438 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = luge;
+				TargetAttributes = {
+					C399DB091E081B88009CB438 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					C399DB221E081B89009CB438 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C399DB091E081B88009CB438;
+					};
+					C399DB2D1E081B89009CB438 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C399DB091E081B88009CB438;
+					};
+				};
+			};
+			buildConfigurationList = C399DB051E081B88009CB438 /* Build configuration list for PBXProject "DYTheme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C399DB011E081B88009CB438;
+			productRefGroup = C399DB0B1E081B88009CB438 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C399DB091E081B88009CB438 /* DYTheme */,
+				C399DB221E081B89009CB438 /* DYThemeTests */,
+				C399DB2D1E081B89009CB438 /* DYThemeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C399DB081E081B88009CB438 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C399DB1D1E081B89009CB438 /* LaunchScreen.storyboard in Resources */,
+				C399DB1A1E081B89009CB438 /* Assets.xcassets in Resources */,
+				C399DB181E081B89009CB438 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C399DB211E081B89009CB438 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C399DB2C1E081B89009CB438 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C399DB061E081B88009CB438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C399DB151E081B89009CB438 /* ViewController.m in Sources */,
+				C399DB121E081B89009CB438 /* AppDelegate.m in Sources */,
+				C399DB0F1E081B89009CB438 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C399DB1F1E081B89009CB438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C399DB281E081B89009CB438 /* DYThemeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C399DB2A1E081B89009CB438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C399DB331E081B89009CB438 /* DYThemeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C399DB251E081B89009CB438 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C399DB091E081B88009CB438 /* DYTheme */;
+			targetProxy = C399DB241E081B89009CB438 /* PBXContainerItemProxy */;
+		};
+		C399DB301E081B89009CB438 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C399DB091E081B88009CB438 /* DYTheme */;
+			targetProxy = C399DB2F1E081B89009CB438 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C399DB161E081B89009CB438 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C399DB171E081B89009CB438 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C399DB1B1E081B89009CB438 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C399DB1C1E081B89009CB438 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C399DB351E081B89009CB438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C399DB361E081B89009CB438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C399DB381E081B89009CB438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DYTheme/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lu.DYTheme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C399DB391E081B89009CB438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DYTheme/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lu.DYTheme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C399DB3B1E081B89009CB438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DYThemeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lu.DYThemeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DYTheme.app/DYTheme";
+			};
+			name = Debug;
+		};
+		C399DB3C1E081B89009CB438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DYThemeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lu.DYThemeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DYTheme.app/DYTheme";
+			};
+			name = Release;
+		};
+		C399DB3E1E081B89009CB438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DYThemeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lu.DYThemeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DYTheme;
+			};
+			name = Debug;
+		};
+		C399DB3F1E081B89009CB438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DYThemeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lu.DYThemeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DYTheme;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C399DB051E081B88009CB438 /* Build configuration list for PBXProject "DYTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C399DB351E081B89009CB438 /* Debug */,
+				C399DB361E081B89009CB438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C399DB371E081B89009CB438 /* Build configuration list for PBXNativeTarget "DYTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C399DB381E081B89009CB438 /* Debug */,
+				C399DB391E081B89009CB438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C399DB3A1E081B89009CB438 /* Build configuration list for PBXNativeTarget "DYThemeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C399DB3B1E081B89009CB438 /* Debug */,
+				C399DB3C1E081B89009CB438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C399DB3D1E081B89009CB438 /* Build configuration list for PBXNativeTarget "DYThemeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C399DB3E1E081B89009CB438 /* Debug */,
+				C399DB3F1E081B89009CB438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C399DB021E081B88009CB438 /* Project object */;
+}
