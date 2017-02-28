@@ -15,6 +15,11 @@
 		C399DB1D1E081B89009CB438 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C399DB1B1E081B89009CB438 /* LaunchScreen.storyboard */; };
 		C399DB281E081B89009CB438 /* DYThemeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C399DB271E081B89009CB438 /* DYThemeTests.m */; };
 		C399DB331E081B89009CB438 /* DYThemeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C399DB321E081B89009CB438 /* DYThemeUITests.m */; };
+		C399DB421E081C01009CB438 /* DYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C399DB411E081C01009CB438 /* DYNavigationController.m */; };
+		C399DB451E081C58009CB438 /* DYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C399DB441E081C58009CB438 /* DYTabBarController.m */; };
+		C399DB481E081C7B009CB438 /* DYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C399DB471E081C7B009CB438 /* DYTabBar.m */; };
+		C399DB4B1E081D0E009CB438 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = C399DB4A1E081D0E009CB438 /* UIView+Frame.m */; };
+		C399DB4E1E082F5F009CB438 /* DYCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C399DB4D1E082F5F009CB438 /* DYCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		C399DB2E1E081B89009CB438 /* DYThemeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYThemeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C399DB321E081B89009CB438 /* DYThemeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYThemeUITests.m; sourceTree = "<group>"; };
 		C399DB341E081B89009CB438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C399DB401E081C01009CB438 /* DYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYNavigationController.h; sourceTree = "<group>"; };
+		C399DB411E081C01009CB438 /* DYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYNavigationController.m; sourceTree = "<group>"; };
+		C399DB431E081C58009CB438 /* DYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYTabBarController.h; sourceTree = "<group>"; };
+		C399DB441E081C58009CB438 /* DYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYTabBarController.m; sourceTree = "<group>"; };
+		C399DB461E081C7B009CB438 /* DYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYTabBar.h; sourceTree = "<group>"; };
+		C399DB471E081C7B009CB438 /* DYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYTabBar.m; sourceTree = "<group>"; };
+		C399DB491E081D0E009CB438 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		C399DB4A1E081D0E009CB438 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		C399DB4C1E082F5F009CB438 /* DYCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYCollectionViewController.h; sourceTree = "<group>"; };
+		C399DB4D1E082F5F009CB438 /* DYCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +120,16 @@
 				C399DB111E081B89009CB438 /* AppDelegate.m */,
 				C399DB131E081B89009CB438 /* ViewController.h */,
 				C399DB141E081B89009CB438 /* ViewController.m */,
+				C399DB4C1E082F5F009CB438 /* DYCollectionViewController.h */,
+				C399DB4D1E082F5F009CB438 /* DYCollectionViewController.m */,
+				C399DB461E081C7B009CB438 /* DYTabBar.h */,
+				C399DB471E081C7B009CB438 /* DYTabBar.m */,
+				C399DB431E081C58009CB438 /* DYTabBarController.h */,
+				C399DB441E081C58009CB438 /* DYTabBarController.m */,
+				C399DB401E081C01009CB438 /* DYNavigationController.h */,
+				C399DB411E081C01009CB438 /* DYNavigationController.m */,
+				C399DB491E081D0E009CB438 /* UIView+Frame.h */,
+				C399DB4A1E081D0E009CB438 /* UIView+Frame.m */,
 				C399DB161E081B89009CB438 /* Main.storyboard */,
 				C399DB191E081B89009CB438 /* Assets.xcassets */,
 				C399DB1B1E081B89009CB438 /* LaunchScreen.storyboard */,
@@ -273,9 +298,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C399DB421E081C01009CB438 /* DYNavigationController.m in Sources */,
 				C399DB151E081B89009CB438 /* ViewController.m in Sources */,
+				C399DB481E081C7B009CB438 /* DYTabBar.m in Sources */,
+				C399DB4B1E081D0E009CB438 /* UIView+Frame.m in Sources */,
 				C399DB121E081B89009CB438 /* AppDelegate.m in Sources */,
+				C399DB451E081C58009CB438 /* DYTabBarController.m in Sources */,
 				C399DB0F1E081B89009CB438 /* main.m in Sources */,
+				C399DB4E1E082F5F009CB438 /* DYCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
